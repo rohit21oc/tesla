@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    font-size: 20px;
+    width: 100%;
+    height: 5vh;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#rnav button{
+    padding: 15px 15px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+}
+#lnav{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+#lnav img{
+    width: 30%;
+    height: 7vh;
+}
+#nav #rnav{
+    display: flex;
+    gap: 50px;
+    
+}
+#rnav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2vw;
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 95vh;
+}
+#main #left{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 95vh;
+    background-color: #000;
+    color: #fff;
+}
+#left h1{
+    font-size: 2vw;
+}
+#left p{
+    font-size: 0.9vw;
+    padding: 20px 3vw;
+    line-height: 1;
+}
+#left button{
+    font-size: 1vw;
+    padding: 8px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+#left button:hover{
+    background-color: rgb(73, 110, 73);
+    box-shadow: 2px 4px 8px #fff;
+    cursor: grab;
+}
+#main #centre{
+    width: 45%;
+    height: 95vh;
+    background-image: url("https://images.unsplash.com/photo-1708953276728-15b3535a107c?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+}
+
+#main #right{
+    width: 45%;
+    height: 95vh;
+    background-color: #000;
+    
+    color: #fff;
+    
+
+}
+#right #icon{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 2vw;
+    width:7vw;
+    height: 7vw;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+#dets{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    line-height: 1.5;
+}
+.cols h4{
+    font-size: 30px;
+    
+}
+.cols h6{
+    font-size: 15px;
+    opacity: 0.5;
+
+}
+
+#arrow{
+    position: absolute;
+    display: flex;
+    bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+#arrow i{
+    padding: 50px;
+    color: #fff;
+}
