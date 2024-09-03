@@ -38,6 +38,7 @@ html,body{
 }
 #nav #rnav{
     display: flex;
+    align-items: center;
     gap: 50px;
     
 }
